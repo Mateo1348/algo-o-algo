@@ -54,6 +54,8 @@ nivel = int(velocidad_enemigo)
 
 # 5. Bucle principal del juego
 corriendo = True
+Sonido_principal = pygame.mixer.Sound("primera cancion.wav")
+Sonido_principal.play()  # Reproducir en bucle
 while corriendo:
     nivel = int(velocidad_enemigo)
     if nivel == 10:
